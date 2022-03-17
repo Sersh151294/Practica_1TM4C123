@@ -6,10 +6,10 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
+#include "math.h"
 
 #include "TM4C123GH6PM.h"
-//Macros 
+//MACROS 
 #define GPIO_PORTF_DATA_R       (*((volatile unsigned long *)0x400253FC))
 #define GPIO_PORTF_DIR_R        (*((volatile unsigned long *)0x40025400))
 #define GPIO_PORTF_AFSEL_R      (*((volatile unsigned long *)0x40025420))

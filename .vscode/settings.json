@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "include.h": "c"
-    }
+    },
+    "terminal.explorerKind": "external"
 }
